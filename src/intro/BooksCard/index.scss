@@ -1,0 +1,29 @@
+.card_img{
+    padding-left: 100px !important;
+}
+
+.container{
+    margin-left: 5%;
+    h2{
+        text-transform: uppercase;
+    }
+    .form-control{
+        width: 20%;
+        height: 30px;
+        border-radius: 7px;
+        border-color: aqua;   
+    }
+    .btn{
+        width: 7% !important;
+        height: 15px !important;
+        margin-top: 10px;
+    }
+}
+
+
+
+::placeholder {
+    padding-left: 15px;
+    font-weight: 600;
+    opacity: 1; 
+  }

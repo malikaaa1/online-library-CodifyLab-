@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import ButtonComponent from '../button/index';
 import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-
 import translation from './translate';
 import { FormControl, Select } from '@material-ui/core';
 import { ReactComponent as CloseMenu } from '../shared/icons/x.svg';
@@ -49,7 +48,9 @@ const Header = () => {
           <Link to='/'>
          <img className='logo' src="https://basmo.app/wp-content/uploads/2021/12/books-vs-internet.webp"  alt="logo" />
           </Link>
-        <span className='logoType'>KYOBO</span>
+         <Link to="/" >
+        <span className='logoType'>KYOBO</span> 
+         </Link> 
         </div>
         <ul
           className={
