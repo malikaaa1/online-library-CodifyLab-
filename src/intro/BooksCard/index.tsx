@@ -34,12 +34,14 @@ function BooksCard() {
                  </div>
                <ButtonComponent onClick={handleClick} className='btn'>Search</ButtonComponent>
              </form>
+             <div className='card_container'>
              {result.map((book:any)=>(
-                 <>
+                 <div >
                  <img className='card_img' key={book.id} src={book.volumeInfo.imageLinks.smallThumbnail} alt='books'/>
-                 <h2>{book.volumeInfo.title}</h2>
-                 </>
-             ))}
+                 <h6>{book.volumeInfo.title}</h6>
+                 </div>
+                 ))}
+                 </div>
         </div>
     );
 };
