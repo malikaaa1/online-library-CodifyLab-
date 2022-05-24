@@ -35,7 +35,10 @@ function BooksCard() {
                <ButtonComponent onClick={handleClick} className='btn'>Search</ButtonComponent>
              </form>
              {result.map((book:any)=>(
+                 <>
                  <img className='card_img' key={book.id} src={book.volumeInfo.imageLinks.smallThumbnail} alt='books'/>
+                 <h2>{book.volumeInfo.title}</h2>
+                 </>
              ))}
         </div>
     );
