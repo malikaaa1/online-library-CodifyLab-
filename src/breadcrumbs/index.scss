@@ -1,0 +1,48 @@
+@import '../shared/styles/colors.scss';
+@import '../shared/styles/media.scss';
+.breadcrumbs {
+  width: 100%;
+  padding: 17px 78px;
+  background: rgb(169, 78, 254);
+  display: flex;
+}
+
+.breadcrumbs_item {
+  display: flex;
+  align-items: center;
+  margin-right: 27.57px;
+  :last-child {
+    margin-right: 0;
+  }
+  a {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 22px;
+    color: white;
+    margin-right: 28px;
+  }
+}
+@media (max-width: 500px) {
+  .breadcrumbs{
+    padding-left: 23px;
+  }
+  .breadcrumbs_item{
+  margin-right: 15px;
+ }
+    a{
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 10px !important;
+      line-height: 18px;
+      color: white;
+      margin-right: 5px;
+      width: 68px;
+      
+    }
+
+}

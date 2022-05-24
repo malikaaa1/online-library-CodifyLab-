@@ -11,7 +11,7 @@ import "./index.scss"
 
 
 const menuItems = [
-  { to: '/', label: translation.en['Our books'], about: true },
+  { to: '/own/books/page', label: translation.en['Our books'], about: true },
   { to: '/services', label: translation.en.Services },
   { to: '/contact', label: translation.en.Contacts },
 ];

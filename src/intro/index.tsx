@@ -8,6 +8,7 @@ export default class InroPage extends React.Component<any, any> {
       <>
         {/* <MainCarousel/> */}
         <BooksCard/>
+       
       </>
     );
   }
